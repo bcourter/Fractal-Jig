@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tessinteract</title>
+    <link rel="stylesheet" href="penrose.css" />
+  </head>
+  <body>
+    <div id="panel">
+        <div id="panelInside">
+            <img src="resources/Penrose Triangle Logo.png" />
+            <h1>Fractal Jig</h1>
+
+            <b>Controls:</b>
+            <br />
+            <label>
+                <input type='checkbox' id='isRotating' />
+                Rotating
+            </label>
+            <br />
+            <label>
+                <input type='checkbox' id='isAnimating' checked='yes' />
+                Animating
+            </label>
+            </p>
+
+            <div id="controlsTextArea">
+                <a href="https://grabcad.com/projects/94928" target='_blank'>http://grabcad.com/projects/...</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/three.js"></script>
+    <script src="js/controls/OrbitControls.js"></script>
+    <script src="js/loaders/OBJLoader.js"></script>
+
+    <script src="js/libs/stats.min.js"></script>
+    <script src="js/penrose.js"></script>
+
+  </body>
+</html>
